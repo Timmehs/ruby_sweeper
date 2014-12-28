@@ -521,7 +521,7 @@ board: &1 !ruby/object:Board
       - 3
       - 4
       bomb: true
-      flagged: false
+      flagged: true
       revealed: false
     - !ruby/object:Tile
       board: *1
@@ -1513,7 +1513,7 @@ board: &1 !ruby/object:Board
       - 9
       - 8
       bomb: true
-      flagged: false
+      flagged: true
       revealed: false
     - !ruby/object:Tile
       board: *1
@@ -1633,7 +1633,7 @@ board: &1 !ruby/object:Board
       - 10
       - 3
       bomb: true
-      flagged: false
+      flagged: true
       revealed: false
     - !ruby/object:Tile
       board: *1

@@ -70,9 +70,6 @@ class Board
     coords.each { |pos| self[pos].bomb = true}
   end
 
-  def set_count
-  end
-
   def display
     header = "\n    "
     (0..@size - 1).each {|i| header += " #{i + 1}".center(3) }

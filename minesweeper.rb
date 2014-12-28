@@ -70,7 +70,8 @@ class Game
       move = gets.chomp
     end
 
-    move.gsub(/\s+/, "").split(",").map(&:to_i)
+    input = move.gsub(/\s+/, "").split(",").map(&:to_i)
+    [input[0] - 1, input[1] - 1]
   end
 
 
